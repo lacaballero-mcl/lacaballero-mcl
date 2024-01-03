@@ -70,75 +70,46 @@
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 <div align="left">
-   <h1 style="margin-top: 0; font-size: 1.2; font-weight: bold;">Git Cheat Sheet:</h1>
+   <h1 style="margin-top: 0; font-size: 1.2; font-weight: bold;">Git Commands: Basics:</h1>
          
    <div class="container">
       <div class="container">
          <p align="left" style="margin-top: 40;"> 
 
-//basics
+1. **GIT INIT**
+   - *Objective:* Initializes a new version control repository.
+   - *Scenario:* When commencing a new project and opting for Git for version control.
+   - *Illustration:* Commence a new repository: git init
 
-1. **Command: git blame**
-   - *Description:* Identify contributors and changes made to a file with commit details.
-   - *When to use:* Track line-level authorship for understanding change history and context.
-   - *Parameters:*
-     - -L: Specify a line range for examination.
-     - <file>: The file to analyze.
-   - *Example:*
-      - bash
-      - Copy code
-      - git blame -L 10,20 myfile.txt
-      - Display changes in lines 10 to 20 of myfile.txt along with commit and author details.
+2. **GIT CLONE**
+   - *Objective:* Reproduces a repository from the internet to your local machine.
+   - *Scenario:* When intending to download a project from an online source, such as GitHub, to your computer.
+   - *Illustration:* Duplicate a repository: git clone https://github.com/example/repository.git
 
-2. **Command: git bisect**
-   - *Description:* Pinpoint the commit introducing a bug using binary search.
-   - *When to use:* Identify the commit causing a bug in your project.
+3. **GIT ADD**
+   - *Objective:* Appends changes to the list of modifications Git will track.
+   - *Scenario:* After making alterations, utilize it to incorporate changes into Git.
+   - *Illustration:* Include a file for staging: git add file.txt
 
-   - *Parameters:*
-     - start: Specify the starting point (a known good commit).
-     - end: Specify the ending point (a known bad commit).
-       
-   - *Example:*
-     
-     - git bisect start
-     - git bisect good 3a12bf2  # Specify a known good commit
-     - git bisect bad          # Specify the current commit as bad
+4. **GIT COMMIT**
+   - *Objective:* Logs your changes in Git as a "checkpoint" for potential retrieval.
+   - *Scenario:* After implementing changes, utilize it to officially save them.
+   - *Illustration: *Commit changes with a message: git commit -m "Add initial version of file.txt"
 
-     
-     Conduct a binary search to find the bug-introducing commit.
+5. **GIT PUSH **
+   - *Objective:* Transfers your saved changes to the online repository.
+   - *Scenario:* Use when prepared to share your modifications with others on platforms like GitHub.
+   - *Illustration:* Push changes to the main branch: git push origin main
+  
+6. **GIT PULL**
+   - *Objective:* Retrieves modifications from the online repository to your local machine.
+   - *Scenario:* When others have made online changes, and you want to synchronize your local copy.
+   - *Illustration:* Pull changes from the main branch: git pull origin main
 
-3. **Command: git stash**
-   - *Description:* Stash away changes in your working directory without committing them, allowing you to switch branches or perform other tasks.
-   - *When to use:* When you need to temporarily save your changes without committing them to switch to another branch or perform a task.
-   - *Parameters:*
-     - save: Optional, include a message to describe the stash.
-   - *Example:*
-     
-     - git stash save "Work in progress, switching branches"
-     
-     Stash changes with a reference message, enabling branch switching without committing.
-
-4. **Command: git cherry-pick**
-   - *Description:* Apply changes from specific commits to the current branch.
-   - *When to use:* Selectively apply commits from one branch to another.
-   - *Parameters:*
-     - <commit>: The commit to apply.
-   - *Example:*
-     
-     - git cherry-pick abc123
-     
-     Apply changes from commit abc123 to the current branch.
-
-5. **Command: git rebase -i**
-   - *Description:* Interactively modify commit history with options like pick, edit, squash, or drop.
-   - *When to use:* Refine commit history before pushing to a shared repository.
-   - *Parameters:*
-     - -i: Launch interactive mode.
-   - *Example:*
-     
-     - git rebase -i HEAD~3
-     
-     Open an interactive rebase window for the last 3 commits, allowing interactive modifications.
+7. **GIT STATUS**
+   - *Objective:* Displays outstanding changes that haven't been stored yet.
+   - *Scenario:* To examine the current state of your project.
+   - *Illustration:* Check the status of your repository: git status
 
      </p>
 </div>
