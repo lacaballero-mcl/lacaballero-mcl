@@ -96,7 +96,7 @@
    - *Scenario:* After implementing changes, utilize it to officially save them.
    - *Illustration: *Commit changes with a message: git commit -m "Add initial version of file.txt"
 
-5. **GIT PUSH **
+5. **GIT PUSH**
    - *Objective:* Transfers your saved changes to the online repository.
    - *Scenario:* Use when prepared to share your modifications with others on platforms like GitHub.
    - *Illustration:* Push changes to the main branch: git push origin main
