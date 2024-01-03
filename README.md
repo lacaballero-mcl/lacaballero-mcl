@@ -76,6 +76,8 @@
       <div class="container">
          <p align="left" style="margin-top: 40;"> 
 
+//basics
+
 1. **Command: git blame**
    - *Description:* Identify contributors and changes made to a file with commit details.
    - *When to use:* Track line-level authorship for understanding change history and context.
