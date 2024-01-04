@@ -14,7 +14,7 @@
   <div class="container">
 
 <div align="left">
-      <h1 style="margin-top: 0; font-size: 1.2;">More info:</h1>
+      <h1 style="margin-top: 0; font-size: 1.2;">MORE INFO:</h1>
    
 - You can call me **LA**.
 
@@ -38,7 +38,7 @@
 
 
 <div align="left">
-      <h1 style="margin-top: 0; font-size: 1.2;">Connect with me:</h1>
+      <h1 style="margin-top: 0; font-size: 1.2;">CONNECT WITH ME:</h1>
    
    <div class="container">
    <div class="container">
@@ -65,7 +65,7 @@
 
 
 <div align="left">
-      <h1 style="margin-top: 0; font-size: 1.2;">Used Language and Tools:</h1>
+      <h1 style="margin-top: 0; font-size: 1.2;">USED LANGUAGE AND TOOLS:</h1>
    
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
