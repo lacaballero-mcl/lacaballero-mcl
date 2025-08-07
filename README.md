@@ -1,14 +1,21 @@
 <div align="center">
    <h1 style="margin-top: 0; font-size: 2;">G R E E T I N G S !</h1>
 
-  <img width="800" src="[https://github.com/lacaballero-mcl/test-repo/assets/154694080/0690ce48-4005-412e-b4e6-4b6eda14ffc9](https://github.com/lacaballero-mcl/lacaballero-mcl/blob/main/1st%20GIF.gif?raw=true)" alt="airdrop choi san">
+   <!-- ✅ PUBLIC GIF FIXED -->
+   <img width="800" src="https://github.com/lacaballero-mcl/lacaballero-mcl/raw/main/1st%20GIF.gif" alt="airdrop choi san">
 
-  <h1 align="center" style="font-size: 1.5;">I'm Louise Angela Caballero, currently a 2nd-year student at Mapúa Malayan Colleges Laguna</h1>
+   <h1 align="center" style="font-size: 1.5;">I'm Louise Angela Caballero, currently a 2nd-year student at Mapúa Malayan Colleges Laguna</h1>
 
-  <p align="left"> <img src="  https://github.com/lacaballero-mcl/lacaballero-mcl/blob/main/2nd%20GIF.gif?raw=true" alt="lacaballero-mcl" /> </p>
+   <p align="left"> 
+     <img src="https://komarev.com/ghpvc/?username=lacaballero-mcl&label=Profile%20views&color=0e75b6&style=flat" alt="lacaballero-mcl" /> 
+   </p>
 
-  <p align="center"> <img style="display: block; margin: auto;" width="650" src="https://github.com/lacaballero-mcl/test-repo/assets/154694080/f75cbb69-2574-41c5-93ad-653b08fec065" alt="Programmer Day - Porforever">
-  
+<!-- ✅ PUBLIC GIF FIXED -->
+   <p align="center"> 
+     <img style="display: block; margin: auto;" width="650" src="https://github.com/lacaballero-mcl/lacaballero-mcl/raw/main/2nd%20GIF.gif" alt="Programmer Day - Porforever">
+   </p>
+</div>
+
   <div class="container">
      
   <div class="container">
@@ -114,4 +121,3 @@
      </p>
 </div>
 </div>
-
