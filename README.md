@@ -1,5 +1,3 @@
-why not fix this code:
-
 <div align="center">
    <h1 style="margin-top: 0; font-size: 2;">G R E E T I N G S !</h1>
 
